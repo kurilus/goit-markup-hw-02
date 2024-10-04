@@ -91,6 +91,11 @@ a {
     color: #fff;
 }
 
+.service-btn:hover,
+.service-btn:focus {
+background-color: #404BBF;
+}
+
 .about-header {
     font-weight: 500;
     font-size: 20px;
@@ -113,10 +118,15 @@ a {
 .team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-img {
@@ -143,10 +153,15 @@ a {
 .portf-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portf-img {
+    width: 360;
 }
 
 .portf-name {
